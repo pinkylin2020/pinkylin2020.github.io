@@ -1,0 +1,447 @@
+:root{
+  --colorAmarillo: #fffb05;
+}
+*, *::after, *::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Arial", "Poppins", "sans-serif", "icomoon", "Open Sans";
+  outline: none;
+}
+body {
+  font-family: "Arial", "Poppins", "sans-serif", "icomoon", "Open Sans";
+  font-size: 16px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+.contenedor_header {
+  display: block;
+  margin: 0;
+}
+.contenedor_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contenedor_footer {
+  display: grid;
+  grid-template-columns: 100%;
+}
+.header_container {
+  padding: 0;
+  margin: 0;
+}
+.header_container a {
+  color: rgb(50, 50, 50);
+  text-decoration: none;
+  list-style: none;
+}
+.header_container:nth-child(1) {
+ background-color: var(--colorAmarillo);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.pinkylin_container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: .5em;
+  padding: 1em;
+}
+.pinkylin_container div{
+  width: 100%;
+  padding: 1em;  
+  background-color: #f1eaea;
+}
+
+/* .item {
+  margin: 0;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+} */
+
+a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* banner agreganos */
+.logo-svg {
+  width: 200px;
+  border-radius: 0px;
+}
+.whatsapp_number {
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(209, 210, 211);
+  text-align: right;
+  width: 100%;
+  font-style: italic;
+  z-index: 100;
+  position: fixed;
+}
+.whatsapp_number .whatsapp {
+  font-style: normal;
+  font-size: 1em;
+  padding: 0;
+  margin-left: 0.5em;
+  border-radius: 50%;
+}
+
+/* redes de chat */
+
+.redes {
+  background-color: white;
+  display: flex;
+  font-family: "Poppins", "icomoon", "Open Sans";
+  font-size: 1.3em;
+  justify-content: space-around;
+  padding: 0;
+  width: 100%;
+}
+.wm {
+  padding: 0.5em 0.5em 0.5em 0;
+}
+.banner_contenedor {
+  background-color: var(--colorAmarillo);
+  text-align: center;
+  padding: 2em 0 1em;
+}
+.banner-img {
+  padding: 1.5em;
+}
+
+/* menu de la app */
+
+.nav-bar {
+  display: none;
+  text-align: center;
+  width: 100%;
+}
+
+nav {
+  padding: 1em;
+  width: 100%;
+  border: none;
+  background-color: var(--colorAmarillo);
+  margin: 0 auto;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-family: "arial", "Poppins", "sans-serif" "icomoon", "Open Sans";
+  display: block;
+}
+.navegacion {
+  display: none;
+  width: 100%;
+  background-color: white;
+}
+.link_li {
+  border: 1px solid var(--colorAmarillo);
+  font-weight: bold;
+}
+.link_li:hover {
+  background: white;
+  color: var(--colorAmarillo);
+  border: 1px solid var(--colorAmarillo);
+  font-weight: bold;
+}
+
+/* seccion de productos */
+.section {
+  padding: 0.5em 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.article_home {
+  width: 25%;
+  color: #242424;
+  font-size: 1rem;
+}
+.article_container {
+  border-radius: 8px;
+  background: var(--colorAmarillo);
+  margin: 1em;
+  color: rgb(0, 0, 0);
+}
+.article_home img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  margin: 0;
+}
+.article_home .content {
+  padding: 1em;
+}
+.article_home .title {
+  text-align: center;
+  width: 90%;
+  padding-bottom: 1em;
+  margin: 0 auto;
+}
+.article_home .description,
+.garment,
+.price {
+  width: 90%;
+  margin: 0 auto;
+}
+.article_home .description,
+.garment {
+  font-weight: 200;
+}
+.article_home .price {
+  margin-top: 0.5em;
+  padding-top: 0.5em;
+  text-align: end;
+  border-top: 1px solid rgb(0, 0, 0);
+}
+.footer_container {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.categoria {
+  width: 100px;
+  padding: 1em 0;
+}
+.redes__contenedor {
+  background: white;
+  margin: 0 auto;
+  width: 100%;
+}
+.redes__titulo {
+  color: rgb(0, 0, 0);
+  padding: 2em 0;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  background-color: var(--colorAmarillo);
+}
+.derechos {
+  background-color: #000;
+  text-align: center;
+  padding: 1em 0;
+  color: rgba(255, 255, 255, 0.582);
+  width: 100%;
+  font-size: 0.8em;
+}
+.redes {
+  text-align: center;
+  padding: 0.5em 0;
+  background-color: white;
+  margin: 1em 0;
+}
+
+/* boton up */
+.subir {
+  position: fixed;
+  bottom: 0.5em;
+  right: 0.4em;
+  font-size: 3em;
+  color: #000000;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 2000;
+}
+
+/* evento boton menu */
+.boton_toggle {
+  background-color: #000000;
+  color: white;
+  padding: 1em;
+  display: block;
+}
+
+@media screen and (min-width: 0px) {
+  .logo-svg {
+    width: 100%;
+    margin-top: 2em;
+  }
+  .whatsapp_text{
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+  }
+  .whatsapp_number {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1em;
+    padding: 0.2em 1em;
+    width: 100%;
+    color: var(--colorAmarillo);
+  }
+  .whatsapp_number span {
+    font-size: 0.9em;
+    font-style: italic;
+  }
+  .redes {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .redes div {
+    display: inline;
+    padding: 0.5em;
+  }
+  .link_li {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    color: #242424;
+    text-align: left;
+    margin: 0;
+  }
+  .link_li:hover {
+    text-align: center;
+    background: var(--colorAmarillo);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1em;
+  }
+  .link_a {
+    margin: 0;
+  }
+  .article_home {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .article_home .title {
+    font-size: 1.5rem;
+    padding-bottom: 0.5em;
+  }
+  .redes {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer_container {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo-svg {
+    width: 200px;
+    margin-top: 2.5em;
+    margin-left: 1.5em;
+    border-radius: 5px;
+  }
+  .navegacion {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1em 0 0 1.2em;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .boton_toggle {
+    display: none;
+  }
+  .link_li {
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    width: 100%;
+  }
+  .link_li:hover {
+    border-radius: 5px;
+    text-align: center;
+    background: var(--colorAmarillo);
+    color: rgb(0, 0, 0);
+    border: 1px solid var(--colorAmarillo);
+    font-weight: bold;
+    font-size: 1em;
+  }
+  .link_a {
+    margin: 0.2em 0.2em;
+    padding: 0;
+  }
+  .whatsapp_number {
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    color: #000000;
+  }
+  .whatsapp_number span {
+    font-size: 1;
+    font-style: italic;
+  }
+  .redes {
+    padding: 1em 0;
+    display: block;
+    justify-content: flex-end;
+  }
+  .redes a {
+    margin: 0 0.5em 0 0;
+    padding: 0.5em;
+  }
+  .article_home {
+    width: 50%;
+    font-size: 1rem;
+  }
+  .article_home .title {
+    font-size: 1.8em;
+  }
+  .article_home .description {
+    font-size: 1.3em;
+  }
+  .article_home .price {
+    font-size: 1.5em;
+  }
+  .pinkylin_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .5em;
+    padding: 1em;
+  }
+  .footer_container {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .whatsapp_number {
+    font-size: 1.1em;
+  }
+  .redes {
+    font-size: 1.3em;
+  }
+  .nav-bar {
+    width: 50%;
+  }
+  .link_li {
+    text-align: center;
+    width: 100%;
+  }
+  .article_home {
+    width: 33%;
+  }
+  .pinkylin_container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: .5em;
+    padding: 1em;
+  }
+}
+
+@media screen and (min-width: 1520px) {
+  .nav-bar {
+    width: 80%;
+  }
+  .article_home {
+    width: 25%;
+  }
+}
