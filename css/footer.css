@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: red;
+}
+.footer_container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-color: whitesmoke;
+    width: 100%;
+}
+.footer_container div{
+    width: 100%;
+    text-align: center;
+}
+
