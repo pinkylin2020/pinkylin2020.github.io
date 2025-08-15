@@ -1,0 +1,83 @@
+@import url('./movil.css');
+@import url('./tablet.css');
+
+/* Responsive Design full screen*/
+
+@media screen and (min-width: 1280px) {
+
+  .header_container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, 60px);
+    box-shadow: 1px 1px 20px rgb(228, 228, 228);
+    overflow: hidden;
+    background-color: var(--colorWhite);
+    padding-top: 1.5em;
+  }
+
+  .header_container .media_container {
+    grid-column: 10/13;
+    grid-row: 1/2;
+    background-color: var(--colorWhite);
+    order: 3;
+  }
+
+  .header_container .nav_container {
+    grid-column: 4/10;
+    grid-row: 1/2;
+    align-self: center;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    order: 2;
+  }
+
+  .header_container .logo_container {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    padding-top: .5em;
+
+    text-align: center;
+    align-self: center;
+    order: 1;
+  }
+
+  .header_container .logo_container a .logo_image {
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+  }
+
+  /* Article */
+
+  .section_container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 1;
+
+  }
+
+
+  /* Nav */
+  .navegacion {
+    background-color: white;
+    color: black;
+  }
+
+  .link_li {
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+
+  }
+
+  .link_li:hover {
+    color: dodgerblue;
+    background-color: var(--colorWhite);
+    border: 1px solid dodgerblue;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  
+}

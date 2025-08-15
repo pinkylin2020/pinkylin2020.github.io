@@ -1,18 +1,55 @@
-.footer{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-.footer_container{
-    display: block;
-    justify-content: center;
-    align-items: center;
-    padding: 1em;
-    background-color: whitesmoke;
-    width: 100%;
-}
-.footer_container div{
-    width: 100%;
-    text-align: center;
+.footer_container {
+  background-color: white;
 }
 
+.redes_container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+.redes{
+  display: grid;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.redes:hover {
+  background-color: rgb(240, 239, 239);
+}
+
+.redes:hover a {
+  background-color: white;
+}
+
+.redes img {
+  width: 2.5em;
+  margin-right: .5em;
+}
+.redes a {
+  background-color: white;
+  padding: .5em .5em .5em 0;
+}
+
+
+.register_container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: dodgerblue;
+  color: white;
+  padding: 1em;
+}
+
+.register_text {
+  text-align: center;
+  width: 100%;
+}
+
+.register_dr {
+  text-align: center;
+  width: 100%;
+}

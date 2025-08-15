@@ -1,0 +1,18 @@
+/* TEAM */
+Tu cargo dentro del proyecto: web developer, desarrollo y diseño web.
+
+Site: 0soundlive@gmail.com,
+Link: https://github.com/crkjalive/pinkylin
+
+Location: Bogotá, Colombia.
+
+/* THANKS */
+Name: Christian Latorre CRKJ
+Git: https://github.com/crkjalive							
+Phone: 3166471805
+
+/* SITE */
+Last update: 2023/07/13
+Standards: HTML5, CSS3, JavaScript.
+Components: iconmoon, SVG.
+Software: VSCode, SublimeText3, GitHub, Inkscape, PhotoShop, Google Devtools.

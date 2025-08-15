@@ -1,0 +1,130 @@
+@media screen and (min-width: 768px) {
+
+  .header_container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: var(--colorDodgerBlue);
+    text-align: left;
+  }
+
+  .logo_container {
+    display: grid;
+    grid-column: 1/2;
+    justify-content: left;
+    align-items: center;
+    background-color: var(--colorWhite);
+    width: 100%;
+  }
+
+  .logo_container a {
+    padding: .5em;
+    margin: .5em;
+  }
+
+  .logo_container a .logo_image {
+    width: 60%;
+    background-color: lime;
+    background-color: var(--colorWhite);
+  }
+
+  .media_container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: var(--colorWhite);
+    text-align: center;
+  }
+
+  /* Aqui vamos */
+
+  .navegacion {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .boton_toggle {
+    display: none;
+  }
+
+  .link_li {
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .link_li:hover {
+    border-radius: 5px;
+    text-align: center;
+    background: var(--colorWhite);
+    color: rgb(0, 0, 0);
+    border: 1px solid var(--colorWhite);
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .link_a {
+    margin: 0.2em 0.2em;
+    padding: 0;
+  }
+
+  .whatsapp_number {
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    color: #000000;
+  }
+
+  .whatsapp_number span {
+    font-size: 1;
+    font-style: italic;
+  }
+
+  .redes {
+    padding: 1em 0;
+  }
+
+  .redes a {
+    margin: 0 0.5em 0 0;
+    padding: 0.5em;
+  }
+
+  /* articles */
+
+  .section_container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1;
+  }
+
+  .article {
+    margin: .5em;
+  }
+
+
+  .pinkylin_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .5em;
+    padding: 1em;
+  }
+
+  .footer_container {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 979px) {
+ 
+  /* articles */
+
+  .section_container {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-gap: 1;
+  }
+
+
+}

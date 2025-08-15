@@ -1,3 +1,110 @@
+/* seccion de productos */
+
+.section_container {
+  display: grid;
+  justify-content: space-around;
+  background-color: blue;
+}
+.article {
+  position: relative;
+  background-color: white;
+  border-radius: 16px;
+  border: 1px solid rgb(170, 170, 170);
+  overflow: hidden;
+}
+.article_id{
+  position: absolute;
+  background-color: white;
+  top: .5em ;
+  right: .5em;
+  padding: .5em;
+  border-radius: .5em;
+  font-weight: bold;
+}
+.article_img{
+  background-color: blueviolet;
+  width: 100%;
+}
+.article_content_text{
+  background-color: white;
+  padding: 1em;
+}
+.article_title{
+  background-color: dodgerblue;
+  padding: .5em;
+  color: white;
+}
+.article_description{
+  padding: .5em 0;
+}
+.article_type{
+
+}
+.article_garment{
+
+}
+.article_color{
+  padding: 0 0 .5em 0;
+
+
+}
+.article_price{
+  padding: .5em;
+  background-color: lime;
+  text-align: right;
+  font-size: 1.2rem;
+
+}
+/*
+.article_container {
+  border-radius: 8px;
+  background-color: white;
+  margin: 1em;
+  color: rgb(0, 0, 0);
+  border: 1px solid deeppink;
+  overflow: hidden;
+  padding: .5em;
+}
+
+.article_home img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  margin: 0;
+}
+
+.article_home .title {
+  display: flex;
+  justify-content: center;
+  background-color: var(--colorDodgerBlue);
+  align-self: center;
+  width: 100%;
+}
+
+.article_home .description,
+.garment {
+  width: 100%;
+}
+
+.article_home .description,
+.garment {
+  font-weight: 200;
+
+}
+
+.article_home .garment{
+  text-align: left;
+}
+
+.article_home .price {
+  padding: .5em;
+  width: 100%;
+  background-color: lime;
+  text-align: end;
+  margin: auto;
+}
+
+/* CSS 2 */
+
 /* Contenedor del sección */
 .section{
     background-color: dodgerblue;
@@ -72,8 +179,4 @@
 .article_container .text_container .precio{
     text-align: center;
     font-size: 1.5rem;
-}
-
-@media (max-width: 411){
-    
 }

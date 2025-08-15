@@ -1,0 +1,52 @@
+@import url('../css/header.css');
+@import url('../css/nav.css');
+@import url('../css/section.css');
+@import url('../css/footer.css');
+@import url('../css/responsive.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --colorWhite: white;
+  --colorWhiteSmoke: whitesmoke;
+  --colorDodgerBlue: dodgerblue;
+  --colorLime: lime;
+  --colorDeepPink: deeppink;
+  --colorBlack: black;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  width: 100%;
+  background-color: var(--colorWhite);
+  position: relative;
+}
+
+a {
+  font-family: "Montserrat", arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.icono_up_container img{
+  background-color: whitesmoke;
+  border-radius: 50%;
+  padding: .25em;
+}
